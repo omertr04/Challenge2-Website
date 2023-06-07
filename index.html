@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omer's Portfolio</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/website.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Omer's Portfolio</h1>
+    <img src="assets/images/omer.jpg" alt="Omer's Photo">
+  </header>
+
+  <!-- Not sure if there is a better why but reason why i put section ID for each section is for this navigation to work so in the navigation section if you click one of the links it will take you to that section -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="about" section id="about">
+      <h2>About Me</h2>
+      <p>Hey, My name is Omer, Welcome to my space where I share with you my current and future projects involving coding languages such as HTML,CSS and JavaScript. 
+        Stepping into the coding world was an exciting step, where this webpage will display my personal and schooling projects that i will be completing over-time. 
+        Right-now is a mock-up of projects that i find interesting where as i gain more depth and knowledge within the coding world, I hope to show you what i can do 
+        and truly display my skills. You can also contact me via the information provided at the bottom of this page. I hope to gradually keep updating both the appearence and 
+        the content available within this webpage and look forward to showcasing what i can do and achieve.</p>
+    </section>
+    
+    <!-- Tried using class names that will help me stay on track where i named it work
+    as im showing off my work which are my applications/projects -->
+
+    <!-- In the future when i actually do have projects i can add valid html links to this section -->
+    <section id="work">
+      <h2>My Work</h2>
+      <div class="work-section">
+        <div class="work-item">
+          <a href="application1.html" target="_blank">
+            <img src="assets/images/maxresdefault.jpg" alt="Calculator">
+            <span class="work-item-overlay">App 1</span>
+          </a>
+        </div>
+        <div class="work-item">
+          <a href="application2.html" target="_blank">
+            <img src="assets/images/weather.jpg" alt="Weather">
+            <span class="work-item-overlay">App 2</span>
+          </a>
+        </div>
+        <div class="work-item">
+          <a href="application3.html" target="_blank">
+            <img src="assets/images/digitalclock.jpg" alt="Clock">
+            <span class="work-item-overlay">App 3</span>
+          </a>
+        </div>
+        <div class="work-item">
+          <a href="application4.html" target="_blank">
+            <img src="assets/images/rockpaper.jpg" alt="Rock Paper Scissors">
+            <!-- side note learnt span element in a youtube video :) thought id add it because it made 
+            sense its basically the subordinate (children class) -->
+            <span class="work-item-overlay">App 4</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email &#128231;
+       : omertr04@gmail.com</p>
+      <p>Phone &#128222;: 0470-243-574</p>
+    </section>
+  </main>
+
+  <footer>
+    <p> 2023 Omer's Portfolio.</p>
+  </footer>
+</body>
+
+</html>
